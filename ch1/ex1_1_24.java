@@ -12,7 +12,7 @@ public class ex1_1_24
     {
         int p = Integer.parseInt(args[0]);
         int q = Integer.parseInt(args[1]);
-        int m = gcd(p, q);
-        StdOut.println("So the GCD is " + m);
+        StdOut.println("GCD of " + p + " and " + q + " is " + gcd(p, q));
     }
 }
+
