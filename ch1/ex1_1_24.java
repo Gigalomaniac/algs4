@@ -15,4 +15,3 @@ public class ex1_1_24
         StdOut.println("GCD of " + p + " and " + q + " is " + gcd(p, q));
     }
 }
-
