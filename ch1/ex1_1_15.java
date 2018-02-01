@@ -3,12 +3,9 @@ public class ex1_1_15
     public static int[] histogram(int[] a, int M)
     {
         int[] b = new int[M];
-        for (int i = 0; i < a.length; i++) {
+        for (int i = 0; i < a.length; i++)
             if (a[i] < M)
                 b[a[i]]++;
-            else
-                continue;
-        }
         return b;
     }
     
@@ -19,14 +16,15 @@ public class ex1_1_15
             if (i % 5 == 4)
                 StdOut.println();
         }
+        StdOut.println();
     }
             
     public static void main(String[] args)
     {
-        StdOut.print("Size of array:");
+        StdOut.print("Size of array a:");
         int N = StdIn.readInt();
-        StdOut.println("Enter an array with " + N + " numbers.");
         int[] a = new int[N];
+        StdOut.println("Enter an array with " + N + " numbers.");
         for (int i = 0; i < N; i++)
             a[i] = StdIn.readInt();
         StdOut.println("Enter an integer M");
