@@ -13,8 +13,6 @@ public class ex1_1_21
             quot[n] = (double)num[n][0] / num[n][1];
         }
         for (int i = 0; i < n; i++)
-            StdOut.printf("%10s %2d %2d %2.3f\n", name[i], num[i][0], num[i][1], quot[i]);
+            StdOut.printf("%10s %4d %4d %7.3f\n", name[i], num[i][0], num[i][1], quot[i]);
     }
 }
-            
-            
