@@ -3,13 +3,16 @@ public class ex1_1_14
     public static int lg(int N)
     {
         int i;
-        for (i = 0; N != 0; i++)
+        for (i = 0; N > 1; i++)
             N /= 2;
-        return i - 1;
+        return i;
     }
     public static void main(String[] args)
     {
-        int num = Integer.parseInt(args[0]);
-        StdOut.printf("%d\n", lg(num));
+        int N = Integer.parseInt(args[0]);
+        if (N > 0)
+            StdOut.printf("%d\n", lg(N));
+        else
+            StdOut.println("Not supported");
     } 
 }
