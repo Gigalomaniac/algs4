@@ -9,19 +9,14 @@ public class ex1_1_11
     }
     public static void printArray(boolean[][] array, int M, int N)
     {
-        StdOut.print("   ");
         for (int i = 0; i < N; i++)
-            StdOut.printf("%4d", i+1);
+            StdOut.printf("%-4d", i+1);
         StdOut.println();
         for (int i = 0; i < M; i++) {
-            StdOut.printf("%3d", i+1);
             for (int j = 0; j < N; j++) {
-                if (array[i][j])
-                    StdOut.printf("%4c", '*');
-                else
-                    StdOut.printf("%4c", ' ');
+                StdOut.printf("%-4c", array[i][j] ? '*' : ' ');
             }
-            StdOut.println();
+            StdOut.printf("%d\n", i+1);
         }
     }
     public static void main(String args[])
