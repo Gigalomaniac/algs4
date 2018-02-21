@@ -1,3 +1,6 @@
+import edu.princeton.cs.algs4.StdIn;
+import edu.princeton.cs.algs4.StdOut;
+
 public class ex1_1_13
 {
     public static void readArray(int[][] array, int M, int N)

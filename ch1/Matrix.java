@@ -1,3 +1,6 @@
+import edu.princeton.cs.algs4.StdIn;
+import edu.princeton.cs.algs4.StdOut;
+
 public class Matrix
 {
     public static double dot(double[] x, double[] y)
@@ -84,7 +87,7 @@ public class Matrix
             StdOut.println();
         }
     }
-    public static void main(String args[])
+    public static void main(String[] args)
     {
         int M = Integer.parseInt(args[0]);
         int N = Integer.parseInt(args[1]);
