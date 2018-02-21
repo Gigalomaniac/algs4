@@ -1,3 +1,5 @@
+import edu.princeton.cs.algs4.StdOut;
+
 public class ex1_1_27
 {
     public static double binomial(int N, int k, double p)
@@ -18,7 +20,7 @@ public class ex1_1_27
         }
         return b[N][k];
     }
-    public static void main(String args[])
+    public static void main(String[] args)
     {
         int N = Integer.parseInt(args[0]);
         int k = Integer.parseInt(args[1]);

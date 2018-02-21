@@ -1,3 +1,6 @@
+import edu.princeton.cs.algs4.StdIn;
+import edu.princeton.cs.algs4.StdOut;
+
 public class ex1_1_21
 {
     public static void main(String[] args)
@@ -10,7 +13,7 @@ public class ex1_1_21
             name[n] = StdIn.readString();
             num[n][0] = StdIn.readInt();
             num[n][1] = StdIn.readInt();
-            quot[n] = (double)num[n][0] / num[n][1];
+            quot[n] = (double) num[n][0] / num[n][1];
         }
         for (int i = 0; i < n; i++)
             StdOut.printf("%10s %4d %4d %7.3f\n", name[i], num[i][0], num[i][1], quot[i]);

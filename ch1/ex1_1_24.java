@@ -1,3 +1,5 @@
+import edu.princeton.cs.algs4.StdOut;
+
 public class ex1_1_24
 {
     public static int gcd(int p, int q)

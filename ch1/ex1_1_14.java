@@ -1,3 +1,5 @@
+import edu.princeton.cs.algs4.StdOut;
+
 public class ex1_1_14
 {
     public static int lg(int N)

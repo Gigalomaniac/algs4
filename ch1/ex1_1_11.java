@@ -1,3 +1,6 @@
+import edu.princeton.cs.algs4.StdIn;
+import edu.princeton.cs.algs4.StdOut;
+
 public class ex1_1_11
 {
     public static void readArray(boolean[][] array, int M, int N)
@@ -19,7 +22,7 @@ public class ex1_1_11
             StdOut.printf("%d\n", i+1);
         }
     }
-    public static void main(String args[])
+    public static void main(String[] args)
     {
         int M = Integer.parseInt(args[0]);
         int N = Integer.parseInt(args[1]);
